@@ -1,6 +1,29 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Muhammad Rayan - Portfolio Website
 
-## Getting Started
+A modern, high-performance portfolio website built with Next.js 14, showcasing the work and skills of Muhammad Rayan - Software Engineer & Full Stack Developer.
+
+## 🚀 Features
+
+- **Hero Section**: Professional introduction with name, title, and value proposition
+- **Interactive Terminal**: Simulated CLI with commands (whoami, stack, clear, help)
+- **Project Showcase**: Categorized display of Commercial/SaaS and Engineering/R&D projects
+- **About Section**: Educational background and technical skills from FAST NUCES
+- **Contact Form**: Functional contact form with direct contact details
+- **Dark Theme**: Modern design with matte black (#0F172A), electric yellow (#FACC15), and code blue (#3B82F6)
+- **Responsive Design**: Optimized for mobile, tablet, and desktop
+- **Performance Optimized**: Built for 90+ Lighthouse score
+- **SEO Optimized**: Comprehensive meta tags and structured data
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS with custom color palette
+- **Animations**: Framer Motion
+- **Fonts**: Inter, Montserrat, JetBrains Mono
+- **Deployment**: Optimized for Vercel
+
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -16,18 +39,29 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📱 Features Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Interactive Terminal
+Try these commands in the terminal:
+- `whoami` - Returns Muhammad Rayan's info
+- `stack` - Shows technical stack
+- `clear` - Clears terminal
+- `help` - Lists available commands
 
-## Learn More
+### Project Categories
+- **Commercial/SaaS**: Real-world applications with business value
+- **Engineering/R&D**: Technical projects showcasing algorithms and system design
 
-To learn more about Next.js, take a look at the following resources:
+## 📞 Contact Information
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Phone**: +92 302 6405788
+- **Email**: mrayandar123@gmail.com
+- **Location**: Islamabad, G11/3
+- **University**: FAST NUCES, BS Software Engineering
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
+
+Built with ❤️ using Next.js and Tailwind CSS
 
 ## Deploy on Vercel
 
