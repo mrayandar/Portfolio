@@ -29,10 +29,10 @@ const projects: Project[] = [
   {
     id: 2,
     title: 'FitCoach SaaS',
-    pitch: 'AI-powered fitness coaching platform',
+    pitch: 'Fitness coaching platform',
     category: 'commercial',
     techStack: ['React', 'Tailwind CSS', 'Stripe', 'Node.js', 'MongoDB'],
-    description: 'Full-stack SaaS platform for fitness coaching with subscription management, AI workout plans, and progress tracking.',
+    description: 'Modern responsive fitness coaching website built with React, TypeScript, and Tailwind CSS. Features include service showcase, pricing plans, client testimonials, contact forms, and newsletter subscription functionality.',
     image: '/images/fitcoach.png'
   },
   {
