@@ -32,6 +32,8 @@ const projects: Project[] = [
     pitch: 'Fitness coaching platform',
     category: 'commercial',
     techStack: ['React', 'Tailwind CSS', 'Stripe', 'Node.js', 'MongoDB'],
+    liveDemo: 'https://fitcoach-gray.vercel.app',
+    github: 'https://github.com/mrayandar/Fitcoach',
     description: 'Modern responsive fitness coaching website built with React, TypeScript, and Tailwind CSS. Features include service showcase, pricing plans, client testimonials, contact forms, and newsletter subscription functionality.',
     image: '/images/fitcoach.png'
   },
