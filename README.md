@@ -54,9 +54,8 @@ Try these commands in the terminal:
 
 ## 📞 Contact Information
 
-- **Phone**: +92 302 6405788
 - **Email**: mrayandar123@gmail.com
-- **Location**: Islamabad, G11/3
+- **Location**: Islamabad, G13/3
 - **University**: FAST NUCES, BS Software Engineering
 
 ---
