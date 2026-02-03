@@ -147,3 +147,31 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #64748B;
 }
+
+/* Add the grid globally to the body */
+body {
+  /* background-image: url('/grid.svg'); - Removed to fix 404 */
+  background-size: 40px 40px; /* Adjust based on your svg size */
+  background-attachment: fixed; /* Keeps grid static while scrolling */
+}
+
+/* Make the grid very faint by default */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.93); /* Dark overlay */
+  z-index: -1;
+}
+
+@keyframes float-slow {
+  0% { transform: translate(0px, 0px) rotate(0deg); }
+  25% { transform: translate(15px, -15px) rotate(5deg); }
+  50% { transform: translate(30px, 0px) rotate(0deg); }
+  75% { transform: translate(15px, 15px) rotate(-5deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+.animate-float {
+  animation: float-slow infinite ease-in-out;
+}

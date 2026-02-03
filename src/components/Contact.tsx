@@ -50,7 +50,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24 px-4 sm:px-6 lg:px-8 relative z-10 overflow-hidden">
       
-      <div className="absolute inset-0 bg-[url('/images/grid.svg')] opacity-[0.03] pointer-events-none"></div>
+      {/* Background Decor - Removed grid.svg reference to fix 404 */}
 
       <div className="max-w-6xl mx-auto">
         <motion.div

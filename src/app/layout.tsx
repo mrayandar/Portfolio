@@ -3,6 +3,8 @@ import { Inter, Montserrat, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import VSCodeNavigation from '@/components/VSCodeNavigation';
 import IntegratedTerminal from '@/components/IntegratedTerminal';
+import Spotlight from '@/components/Spotlight'; 
+import FloatingIcons from '@/components/FloatingIcons';
 
 const inter = Inter({
   variable: "--font-inter",
@@ -58,19 +60,28 @@ export default function RootLayout({
         className={`${inter.variable} ${montserrat.variable} ${jetbrainsMono.variable} font-jetbrains antialiased bg-void text-off-white overflow-x-hidden relative`}
         suppressHydrationWarning={true}
       >
-        {/* The Aurora Background */}
+        {/* The Background Layers (z-0) */}
         <div className="fixed inset-0 z-0">
           <div className="absolute inset-0 bg-void"></div>
           {/* Aurora Orbs */}
           <div className="aurora-orb aurora-orb-1"></div>
           <div className="aurora-orb aurora-orb-2"></div>
           <div className="aurora-orb aurora-orb-3"></div>
+          
           {/* The Grid */}
           <div className="absolute inset-0 opacity-5">
             <div className="grid-pattern"></div>
           </div>
+
+          {/* 2. Add Floating Icons Here */}
+          <FloatingIcons />
+
         </div>
         
+        {/* The Spotlight (z-5) */}
+        <Spotlight />
+        
+        {/* The Content (z-10) */}
         <div className="relative z-10">
           <VSCodeNavigation />
           <main className="min-h-screen pt-12">
