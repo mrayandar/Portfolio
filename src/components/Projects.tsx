@@ -22,7 +22,7 @@ const projects: Project[] = [
     pitch: 'Desktop billing solution with offline capabilities',
     category: 'commercial',
     techStack: ['Electron.js', 'SQLite', 'Node.js', 'HTML/CSS'],
-    github: '#',
+    github: 'https://github.com/mrayandar/Desktop-Billing-App',
     description: 'Comprehensive billing system with inventory management, offline database, and receipt generation for toy retail businesses.',
     image: '/images/toy-shop.png' // Make sure this file exists in public/images/
   },
@@ -32,8 +32,6 @@ const projects: Project[] = [
     pitch: 'AI-powered fitness coaching platform',
     category: 'commercial',
     techStack: ['React', 'Tailwind CSS', 'Stripe', 'Node.js', 'MongoDB'],
-    liveDemo: '#',
-    github: '#',
     description: 'Full-stack SaaS platform for fitness coaching with subscription management, AI workout plans, and progress tracking.',
     image: '/images/fitcoach.png'
   },
@@ -43,8 +41,7 @@ const projects: Project[] = [
     pitch: '3-portal system for complete ecommerce management',
     category: 'commercial',
     techStack: ['MERN Stack', 'Redux', 'Payment Gateway', 'AWS'],
-    liveDemo: '#',
-    github: '#',
+    github: 'https://github.com/mrayandar/Web-Project',
     description: 'Complete ecommerce solution with separate portals for Admin, Staff, and Customers. Features vendor management and analytics.',
     image: '/images/ecommerce.png'
   },
@@ -54,7 +51,7 @@ const projects: Project[] = [
     pitch: 'Intelligent chess engine with advanced algorithms',
     category: 'engineering',
     techStack: ['Python', 'Min-Max Algorithm', 'Alpha-Beta Pruning', 'Pygame'],
-    github: '#',
+    github: 'https://github.com/mrayandar/Chess-with-AI',
     description: 'Chess game with AI opponent using minimax algorithm and alpha-beta pruning for optimal move calculation.',
     image: '/images/chess-ai.png'
   },
@@ -64,7 +61,6 @@ const projects: Project[] = [
     pitch: 'Complete restaurant management solution',
     category: 'engineering',
     techStack: ['C#', 'SQL Server', 'Windows Forms', '.NET Framework'],
-    github: '#',
     description: 'Desktop application for cafe management including order processing, inventory tracking, and sales reporting.',
     image: '/images/cafe-management.png'
   }
